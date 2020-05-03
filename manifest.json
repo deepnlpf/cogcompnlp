@@ -1,0 +1,44 @@
+{
+    "manifest_version": "1",
+    "name": "CogComp NLP",
+    "keyname": "cogcompnlp",
+    "description": "This project collects a number of core libraries for Natural Language Processing (NLP) developed by Cognitive Computation Group.",
+    "site": "http://nlp.cogcomp.org/",
+    "version": "",
+    "author": "RodriguesFAS",
+    "category": "pln",
+    "license": "",
+    "analysis": [{
+            "lexical": [{
+                "name": "NER Ontonotes",
+                "keyname": "NER_ONTONOTES",
+                "description": "https://github.com/CogComp/cogcomp-nlp/tree/master/ner"
+            }]
+        },
+        {
+            "syntatic": [{
+                "name": "Shallow Parse",
+                "keyname": "SHALLOW_PARSE",
+                "description": ""
+            }]
+        },
+        {
+            "semantic": [{
+                    "name": "SRL Nom",
+                    "keyname": "SRL_NOM",
+                    "description": ""
+                },
+                {
+                    "name": "SRL Verb",
+                    "keyname": "SRL_VERB",
+                    "description": ""
+                },
+                {
+                    "name": "SRL Prep",
+                    "keyname": "SRL_PREP",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

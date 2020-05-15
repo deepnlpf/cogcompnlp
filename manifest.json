@@ -1,5 +1,5 @@
 {
-    "manifest_version": "1",
+    "manifest_version": "1.0.1",
     "name": "CogComp NLP",
     "keyname": "cogcompnlp",
     "description": "This project collects a number of core libraries for Natural Language Processing (NLP) developed by Cognitive Computation Group.",

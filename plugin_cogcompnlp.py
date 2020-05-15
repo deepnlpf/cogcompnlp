@@ -31,7 +31,7 @@ class Plugin(IPlugin):
 
     def run(self):
         annotation = Boost().multithreading(self.annotate_online, self._document['sentences'])
-        return self.out_format(annotation)
+        return annotation
 
     def wrapper(self):
         pass
@@ -67,10 +67,4 @@ class Plugin(IPlugin):
                 #log.logging.error("CogComp Exception occurred: "+_sent, exc_info=True)
 
     def out_format(self, annotation):
-        return OutputFormat().doc_annotation(
-            _id_pool=self._id_pool,
-            _id_dataset=self._document['_id_dataset'], 
-            _id_document=self._document['_id'],
-            tool="cogcomp",
-            annotation=annotation
-        )
+        pass
